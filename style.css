@@ -1,0 +1,81 @@
+*{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Arial;
+}
+h1 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: bold;
+  width: 400px;
+}
+
+button {
+  margin-bottom: 30px;
+  padding: 10px 14px 10px 14px;
+  border-radius: 16px;
+  border: none;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(72, 107, 171);
+  transition: opacity 0.15;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.6;
+}
+
+.name-tab,
+.cpf-tab {
+  padding-left: 10px;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 10px;
+  background-color: rgb(245, 245, 245);
+  width: 400px;
+  height: 35px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: rgb(72, 107, 171)
+}
+
+.name-tab {
+  margin-bottom: 25px;
+}
+
+.output-elements {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.first-column {
+  display: inline-block;
+  padding-right: 100px;        
+}
+
+.second-colum {
+  display: inline-block;
+  padding-right: 240px;
+}
+
+.third-colum {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.first-row {
+  display: block;
+  border: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+}
